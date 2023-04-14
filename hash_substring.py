@@ -13,8 +13,8 @@ def read_file_input(filename):
     return pattern, text
 
 def read_user_input():
-    pattern = input("Enter the pattern: ").rstrip()
-    text = input("Enter the text: ").rstrip()
+    pattern = input().rstrip()
+    text = input().rstrip()
     
     return pattern, text
 
