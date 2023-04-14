@@ -1,3 +1,4 @@
+#Pāvels Kudrjavcevs 221RDB353 2.grupa
 def read_file_input(filename):
     try:
         with open(f"./tests/{filename}") as f:
