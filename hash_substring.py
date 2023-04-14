@@ -24,7 +24,7 @@ def read_input():
     if input_type == 'I':
         return read_user_input()
     elif input_type == 'F':
-        filename = input("Enter file name: ").rstrip()
+        filename = "06"
         if str(filename[-1]) == "a":
             raise ValueError("Invalid filename")
         return read_file_input(filename)
