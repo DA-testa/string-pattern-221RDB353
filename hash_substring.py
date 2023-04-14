@@ -19,7 +19,7 @@ def read_user_input():
     return pattern, text
 
 def read_input():
-    input_type = input("Enter input type (I for user input, F for file input): ").rstrip()
+    input_type = input().rstrip()
     
     if input_type == 'I':
         return read_user_input()
